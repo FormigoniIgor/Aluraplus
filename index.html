@@ -8,22 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     
 </head>
-<header>
-    <li class="lista__link">
-  <button onclick="mudarIdioma('pt')">🇧🇷 Português</button>
-</li>
-<li class="lista__link">
-  <button onclick="mudarIdioma('en')">🇬🇧 English</button>
-</li>
-<h2 id="titulo-assista" class="descricao__titulo">
-  Assista do seu jeito
-</h2>
-<p id="texto-assista" class="descricao__texto">
-  Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de cursos não para de crescer.
-</p>
-
-
-</header>
 <body>
     <section class="container principal">
        <div class="container__caixa">
@@ -116,24 +100,6 @@
         </ul>
         <p class="rodape__texto">® 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.</p>
         <p class="rodape__texto">Alura+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Alura+ é comercializado por Aovs Sistemas de Informática S.A., Rua Vergueiro, 3185 - Liberdade, São Paulo - SP, 04101-300, Brasil e CNPJ 05.555.382/0001-33</p>
-        <script>
-  const textos = {
-    pt: {
-      tituloAssista: "Assista do seu jeito",
-      textoAssista: "Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de cursos não para de crescer."
-    },
-    en: {
-      tituloAssista: "Watch your way",
-      textoAssista: "Enjoy the big screen on your TV or watch on your tablet, laptop, mobile phone, and other devices. Our selection of courses keeps growing."
-    }
-  };
-
-  function mudarIdioma(lang) {
-    document.getElementById("titulo-assista").innerText = textos[lang].tituloAssista;
-    document.getElementById("texto-assista").innerText = textos[lang].textoAssista;
-  }
-</script>
-
         
    </footer>
 </body>
